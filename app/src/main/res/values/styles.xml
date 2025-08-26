@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.RitsuAIAssistant" parent="Theme.Material3.DayNight">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/ritsu_pink</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/ritsu_pink_light</item>
+        <item name="colorOnPrimaryContainer">@color/ritsu_pink_dark</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/ritsu_blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/ritsu_blue_light</item>
+        <item name="colorOnSecondaryContainer">@color/ritsu_blue_dark</item>
+        
+        <!-- Tertiary color -->
+        <item name="colorTertiary">@color/ritsu_purple</item>
+        <item name="colorOnTertiary">@color/white</item>
+        <item name="colorTertiaryContainer">@color/ritsu_purple_light</item>
+        <item name="colorOnTertiaryContainer">@color/ritsu_purple_dark</item>
+        
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/ritsu_pink</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">@color/black</item>
+        
+        <!-- Window background -->
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+    
+    <!-- Launcher theme -->
+    <style name="Theme.RitsuAIAssistant.Launcher" parent="Theme.RitsuAIAssistant">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+    
+    <!-- Fullscreen theme for onboarding -->
+    <style name="Theme.RitsuAIAssistant.Fullscreen" parent="Theme.RitsuAIAssistant">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <!-- Transparent theme for overlay -->
+    <style name="Theme.RitsuAIAssistant.Transparent" parent="Theme.RitsuAIAssistant">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    
+    <!-- Button styles -->
+    <style name="RitsuButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/ritsu_pink</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    
+    <style name="RitsuButton.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/ritsu_pink</item>
+        <item name="android:textColor">@color/ritsu_pink</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    
+    <!-- Text styles -->
+    <style name="RitsuText" parent="Widget.Material3.TextView">
+        <item name="android:fontFamily">@font/noto_sans_regular</item>
+    </style>
+    
+    <style name="RitsuText.Headline" parent="RitsuText">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/noto_sans_bold</item>
+        <item name="android:textColor">@color/on_background</item>
+    </style>
+    
+    <style name="RitsuText.Title" parent="RitsuText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/noto_sans_medium</item>
+        <item name="android:textColor">@color/on_background</item>
+    </style>
+    
+    <style name="RitsuText.Body" parent="RitsuText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/on_background</item>
+    </style>
+    
+    <style name="RitsuText.Caption" parent="RitsuText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/on_background_variant</item>
+    </style>
+    
+    <!-- Card styles -->
+    <style name="RitsuCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/surface</item>
+    </style>
+    
+    <!-- Avatar styles -->
+    <style name="RitsuAvatar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/avatar_background</item>
+    </style>
+    
+    <!-- Search bar style -->
+    <style name="RitsuSearchBar" parent="Widget.Material3.SearchBar">
+        <item name="android:background">@drawable/search_bar_background</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+    
+    <!-- Floating Action Button -->
+    <style name="RitsuFAB" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/ritsu_pink</item>
+        <item name="tint">@color/white</item>
+    </style>
+    
+    <!-- Bottom Navigation -->
+    <style name="RitsuBottomNavigation" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconTint">@color/bottom_nav_item_color</item>
+        <item name="itemTextColor">@color/bottom_nav_item_color</item>
+        <item name="android:background">@color/surface</item>
+    </style>
+    
+    <!-- Tab Layout -->
+    <style name="RitsuTabLayout" parent="Widget.Material3.TabLayout">
+        <item name="tabIndicatorColor">@color/ritsu_pink</item>
+        <item name="tabTextColor">@color/on_surface_variant</item>
+        <item name="tabSelectedTextColor">@color/ritsu_pink</item>
+    </style>
+    
+    <!-- App Widget styles -->
+    <style name="RitsuWidget">
+        <item name="android:background">@drawable/widget_background</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    
+    <!-- Notification styles -->
+    <style name="RitsuNotification">
+        <item name="android:background">@color/surface</item>
+        <item name="android:textColor">@color/on_surface</item>
+    </style>
+</resources>

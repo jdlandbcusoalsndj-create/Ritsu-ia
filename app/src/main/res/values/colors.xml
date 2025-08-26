@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ritsu Brand Colors -->
+    <color name="ritsu_pink">#E91E63</color>
+    <color name="ritsu_pink_light">#FFD6E8</color>
+    <color name="ritsu_pink_dark">#880E4F</color>
+    
+    <color name="ritsu_blue">#64B5F6</color>
+    <color name="ritsu_blue_light">#E1F5FE</color>
+    <color name="ritsu_blue_dark">#1976D2</color>
+    
+    <color name="ritsu_purple">#AB47BC</color>
+    <color name="ritsu_purple_light">#F3E5F5</color>
+    <color name="ritsu_purple_dark">#4A148C</color>
+    
+    <color name="ritsu_green">#66BB6A</color>
+    <color name="ritsu_orange">#FF9800</color>
+    
+    <!-- Avatar Colors -->
+    <color name="skin_tone">#FFDBBA</color>
+    <color name="hair_brown">#8B4513</color>
+    <color name="eye_blue">#4169E1</color>
+    <color name="blush_pink">#FF69B4</color>
+    
+    <!-- System Colors - Light Theme -->
+    <color name="background">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F5F5F5</color>
+    <color name="on_background">#1C1B1F</color>
+    <color name="on_surface">#1C1B1F</color>
+    <color name="on_surface_variant">#424242</color>
+    <color name="outline">#BDBDBD</color>
+    <color name="outline_variant">#E0E0E0</color>
+    
+    <!-- System Colors - Dark Theme -->
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="surface_variant_dark">#2D2D2D</color>
+    <color name="on_background_dark">#E0E0E0</color>
+    <color name="on_surface_dark">#E0E0E0</color>
+    <color name="on_surface_variant_dark">#B0B0B0</color>
+    <color name="outline_dark">#404040</color>
+    <color name="outline_variant_dark">#333333</color>
+    
+    <!-- Common Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    
+    <!-- Error Colors -->
+    <color name="error">#B00020</color>
+    <color name="error_dark">#CF6679</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="error_container">#FFEAEA</color>
+    <color name="on_error_container">#410002</color>
+    
+    <!-- Success Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="success_dark">#2E7D32</color>
+    <color name="on_success">#FFFFFF</color>
+    <color name="success_container">#E8F5E8</color>
+    <color name="on_success_container">#1B5E20</color>
+    
+    <!-- Warning Colors -->
+    <color name="warning">#FF9800</color>
+    <color name="warning_dark">#F57C00</color>
+    <color name="on_warning">#FFFFFF</color>
+    <color name="warning_container">#FFF3E0</color>
+    <color name="on_warning_container">#E65100</color>
+    
+    <!-- Info Colors -->
+    <color name="info">#2196F3</color>
+    <color name="info_dark">#1976D2</color>
+    <color name="on_info">#FFFFFF</color>
+    <color name="info_container">#E3F2FD</color>
+    <color name="on_info_container">#0D47A1</color>
+    
+    <!-- Activity State Colors -->
+    <color name="active">#4CAF50</color>
+    <color name="listening">#FF5722</color>
+    <color name="speaking">#2196F3</color>
+    <color name="thinking">#9C27B0</color>
+    <color name="idle">#757575</color>
+    
+    <!-- Special UI Elements -->
+    <color name="scrim">#80000000</color>
+    <color name="shadow">#1A000000</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="divider_dark">#333333</color>
+    
+    <!-- Bottom Navigation -->
+    <color name="bottom_nav_item_color">@color/ritsu_pink</color>
+    <color name="bottom_nav_background">@color/surface</color>
+    
+    <!-- Status Colors -->
+    <color name="online">#4CAF50</color>
+    <color name="offline">#757575</color>
+    <color name="away">#FF9800</color>
+    <color name="busy">#F44336</color>
+    
+    <!-- Notification Colors -->
+    <color name="notification_background">@color/surface</color>
+    <color name="notification_text">@color/on_surface</color>
+    <color name="notification_accent">@color/ritsu_pink</color>
+    
+    <!-- Overlay Colors -->
+    <color name="overlay_background">#F0FFFFFF</color>
+    <color name="overlay_background_dark">#F0000000</color>
+    
+    <!-- Widget Colors -->
+    <color name="widget_background">#FFFFFFFF</color>
+    <color name="widget_background_dark">#FF1E1E1E</color>
+    <color name="widget_text">@color/on_surface</color>
+    
+    <!-- Chat Bubble Colors -->
+    <color name="chat_bubble_user">@color/ritsu_pink_light</color>
+    <color name="chat_bubble_ritsu">@color/ritsu_blue_light</color>
+    <color name="chat_bubble_system">@color/surface_variant</color>
+    
+    <!-- Progress Colors -->
+    <color name="progress_background">@color/surface_variant</color>
+    <color name="progress_foreground">@color/ritsu_pink</color>
+    
+    <!-- Selection Colors -->
+    <color name="selection">#40E91E63</color>
+    <color name="selection_text">@color/ritsu_pink</color>
+    
+    <!-- Card Colors -->
+    <color name="card_background">@color/surface</color>
+    <color name="card_background_dark">@color/surface_dark</color>
+    <color name="card_stroke">@color/outline_variant</color>
+    
+    <!-- Button Colors -->
+    <color name="button_disabled">#FFBDBDBD</color>
+    <color name="button_disabled_text">#FF757575</color>
+    
+    <!-- Link Colors -->
+    <color name="link">@color/ritsu_blue</color>
+    <color name="link_visited">@color/ritsu_purple</color>
+</resources>

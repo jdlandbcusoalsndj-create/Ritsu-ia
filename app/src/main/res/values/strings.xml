@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ritsu AI Assistant</string>
+    
+    <!-- Onboarding -->
+    <string name="welcome_title">¡Hai! Soy Ritsu</string>
+    <string name="welcome_description">Tu nueva asistente de IA personal. Estoy aquí para hacer tu vida más fácil y divertida.</string>
+    <string name="permissions_title">Permisos Necesarios</string>
+    <string name="permissions_description">Para funcionar correctamente, necesito algunos permisos</string>
+    <string name="overlay_title">Permiso de Overlay</string>
+    <string name="overlay_description">Este permiso me permite aparecer sobre otras aplicaciones para ayudarte en cualquier momento.</string>
+    <string name="accessibility_title">Servicio de Accesibilidad</string>
+    <string name="accessibility_description">Este servicio me permite interactuar con otras aplicaciones para ayudarte mejor.</string>
+    <string name="complete_title">¡Todo Listo!</string>
+    <string name="complete_description">¡Sugoi! ¡Estoy lista para ayudarte!</string>
+    
+    <!-- Permissions -->
+    <string name="permission_microphone">Micrófono - Para escuchar tus comandos de voz</string>
+    <string name="permission_phone">Teléfono - Para manejar llamadas por ti</string>
+    <string name="permission_sms">SMS - Para leer y responder mensajes</string>
+    <string name="permission_contacts">Contactos - Para identificar quién te llama</string>
+    <string name="permission_location">Ubicación - Para el clima y servicios locales</string>
+    <string name="permission_camera">Cámara - Para funciones multimedia</string>
+    
+    <!-- Avatar expressions -->
+    <string name="avatar_greeting">¡Hola! ¿Cómo estás?</string>
+    <string name="avatar_listening">Te escucho...</string>
+    <string name="avatar_thinking">Hmm, déjame pensar...</string>
+    <string name="avatar_speaking">¡Aquí tienes!</string>
+    <string name="avatar_happy">¡Perfecto!</string>
+    <string name="avatar_surprised">¡Oh!</string>
+    
+    <!-- Launcher -->
+    <string name="search_hint">Buscar aplicaciones...</string>
+    <string name="voice_search_hint">Buscar o di \'Hey Ritsu\'...</string>
+    
+    <!-- Services -->
+    <string name="overlay_notification_title">Ritsu AI Assistant</string>
+    <string name="overlay_notification_text">Tu asistente está activa</string>
+    <string name="call_notification_title">Ritsu manejando llamada</string>
+    <string name="message_notification_title">Nuevo mensaje</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Configuración de Ritsu</string>
+    <string name="settings_general">General</string>
+    <string name="settings_voice">Voz y Audio</string>
+    <string name="settings_calls">Llamadas</string>
+    <string name="settings_messages">Mensajes</string>
+    <string name="settings_notifications">Notificaciones</string>
+    <string name="settings_privacy">Privacidad</string>
+    <string name="settings_advanced">Avanzado</string>
+    
+    <!-- Accessibility -->
+    <string name="accessibility_service_description">Permite a Ritsu interactuar con otras aplicaciones para ayudarte mejor. Ritsu puede leer notificaciones, abrir aplicaciones por comando de voz y asistirte con navegación.</string>
+    
+    <!-- Calls -->
+    <string name="call_answered_by_ritsu">Llamada respondida por Ritsu</string>
+    <string name="call_ended_by_ritsu">Llamada finalizada por Ritsu</string>
+    <string name="call_summary">Resumen de llamada</string>
+    
+    <!-- Messages -->
+    <string name="message_auto_response">Respuesta automática de Ritsu</string>
+    <string name="message_read_aloud">Leyendo mensaje en voz alta</string>
+    
+    <!-- Voice commands -->
+    <string name="wake_word">Hey Ritsu</string>
+    <string name="command_open_app">Abrir %1$s</string>
+    <string name="command_call_contact">Llamar a %1$s</string>
+    <string name="command_send_message">Enviar mensaje a %1$s</string>
+    <string name="command_weather">¿Cómo está el clima?</string>
+    <string name="command_time">¿Qué hora es?</string>
+    
+    <!-- Responses -->
+    <string name="response_opening_app">Abriendo %1$s</string>
+    <string name="response_calling_contact">Llamando a %1$s</string>
+    <string name="response_sending_message">Enviando mensaje</string>
+    <string name="response_weather_info">El clima está %1$s con %2$d grados</string>
+    <string name="response_current_time">Son las %1$s</string>
+    <string name="response_unknown_command">No entendí ese comando. ¿Puedes repetir?</string>
+    <string name="response_error">Lo siento, hubo un error. ¿Puedes intentar de nuevo?</string>
+    
+    <!-- Weather -->
+    <string name="weather_sunny">Soleado</string>
+    <string name="weather_cloudy">Nublado</string>
+    <string name="weather_rainy">Lluvioso</string>
+    <string name="weather_snowy">Nevando</string>
+    <string name="weather_unknown">Desconocido</string>
+    
+    <!-- Notifications -->
+    <string name="notification_new_message">Nuevo mensaje de %1$s</string>
+    <string name="notification_missed_call">Llamada perdida de %1$s</string>
+    <string name="notification_urgent">¡Atención! Notificación importante</string>
+    
+    <!-- Errors -->
+    <string name="error_permission_denied">Permiso denegado</string>
+    <string name="error_service_unavailable">Servicio no disponible</string>
+    <string name="error_network_connection">Error de conexión</string>
+    <string name="error_voice_recognition">Error en reconocimiento de voz</string>
+    <string name="error_tts">Error en síntesis de voz</string>
+    
+    <!-- Actions -->
+    <string name="action_grant_permission">Conceder Permiso</string>
+    <string name="action_deny_permission">Denegar</string>
+    <string name="action_retry">Reintentar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_ok">OK</string>
+    <string name="action_yes">Sí</string>
+    <string name="action_no">No</string>
+    <string name="action_next">Siguiente</string>
+    <string name="action_previous">Anterior</string>
+    <string name="action_finish">Finalizar</string>
+    <string name="action_skip">Omitir</string>
+    
+    <!-- About -->
+    <string name="about_title">Acerca de Ritsu AI Assistant</string>
+    <string name="about_version">Versión %1$s</string>
+    <string name="about_description">Ritsu es tu asistente de IA personal completamente gratuita. Desarrollada con amor para hacer tu vida más fácil y divertida.</string>
+    <string name="about_features">Características principales:</string>
+    <string name="about_feature_calls">• Manejo inteligente de llamadas</string>
+    <string name="about_feature_messages">• Respuestas automáticas a mensajes</string>
+    <string name="about_feature_voice">• Comandos de voz offline</string>
+    <string name="about_feature_ai">• IA local completamente gratuita</string>
+    <string name="about_feature_launcher">• Launcher personalizado</string>
+    
+    <!-- Legal -->
+    <string name="privacy_policy">Política de Privacidad</string>
+    <string name="terms_of_service">Términos de Servicio</string>
+    <string name="open_source_licenses">Licencias de Código Abierto</string>
+</resources>
