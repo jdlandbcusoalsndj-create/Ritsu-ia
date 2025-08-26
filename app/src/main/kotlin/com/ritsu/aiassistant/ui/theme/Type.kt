@@ -6,14 +6,10 @@ import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import com.ritsu.aiassistant.R
-
 // Fuente personalizada para un look más anime/moderno
-val NotoSansFamily = FontFamily(
-    Font(R.font.noto_sans_regular, FontWeight.Normal),
-    Font(R.font.noto_sans_medium, FontWeight.Medium),
-    Font(R.font.noto_sans_bold, FontWeight.Bold)
-)
+// Por ahora usamos la fuente del sistema, en una implementación real
+// cargarías las fuentes desde res/font/
+val NotoSansFamily = FontFamily.Default
 
 // Typography personalizada para Ritsu AI Assistant
 val Typography = Typography(

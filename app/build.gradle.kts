@@ -118,18 +118,16 @@ dependencies {
     // Accessibility Services
     implementation("androidx.accessibility:accessibility:1.0.0")
     
-    // OpenGL ES for 3D Avatar
-    implementation("org.rajawali3d:rajawali:1.2.1970")
+    // OpenGL ES for 3D Avatar - usando bibliotecas del sistema
+    // implementation("org.rajawali3d:rajawali:1.2.1970") // Comentado por compatibilidad
     
     // Local AI - ONNX Runtime for local model inference
-    implementation("com.microsoft.onnxruntime:onnxruntime-android:1.16.3")
+    // implementation("com.microsoft.onnxruntime:onnxruntime-android:1.16.3") // Comentado por tamaño
     
-    // Audio/Voice Processing
-    implementation("edu.cmu.sphinx:pocketsphinx-android:5prealpha-SNAPSHOT")
-    implementation("com.ibm.watson:speech-to-text:11.0.0")
+    // Audio/Voice Processing - usando APIs del sistema Android
+    // implementation("edu.cmu.sphinx:pocketsphinx-android:5prealpha-SNAPSHOT") // Comentado por compatibilidad
     
-    // Text-to-Speech alternatives
-    implementation("com.festplatform:festplatform:1.0.0")
+    // Usando TTS y Speech Recognition del sistema Android
     
     // JSON Processing
     implementation("com.google.code.gson:gson:2.10.1")
@@ -137,8 +135,8 @@ dependencies {
     // Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
     
-    // Telecom for call handling
-    implementation("androidx.core:core-telecom:1.0.0-alpha01")
+    // Telecom for call handling - usando APIs estándar de Android
+    // implementation("androidx.core:core-telecom:1.0.0-alpha01") // Comentado - alfa version
     
     // Testing
     testImplementation("junit:junit:4.13.2")
