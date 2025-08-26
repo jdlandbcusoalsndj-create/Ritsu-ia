@@ -63,7 +63,6 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: '3.9'
-        cache: 'pip'
 
     - name: 📦 Install AI Testing Dependencies
       run: |
@@ -541,4 +540,6 @@ jobs:
         
         # Memory usage estimation
         echo "💾 Memory analysis:"
-        ./gradlew assembleDebug -Dorg.gradle.jvmargs="-Xmx2g" --no-daemon 2>&1 | grep -i "memory\|heap" || echo "Memory usage: Normal
+        ./gradlew assembleDebug -Dorg.gradle.jvmargs="-Xmx2g" --no-daemon 2>&1 | grep -i "memory\|heap" || echo "Memory usage: Normal"
+        
+        ec
